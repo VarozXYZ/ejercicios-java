@@ -34,9 +34,9 @@ public class Pizza {
       
       System.out.println("El primer pedido es de una pizza carbonara grande");
       Pizza pedido1 = new Pizza("grande", "carbonara");
-      System.out.println("El segundo pedido es de una pizza barbacoa pequeña");
-      pedido1.servePizza();
+          pedido1.servePizza();
       System.out.println("El primer pedido está listo para servir");
+      System.out.println("El segundo pedido es de una pizza barbacoa pequeña");
       Pizza pedido2 = new Pizza("pequeña", "barbacoa");
   }
   
