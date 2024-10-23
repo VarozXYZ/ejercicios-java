@@ -12,11 +12,11 @@ public class Libro {
     }
 
   public void prestar() {
-    this.prestado = true;
+    prestado = true;
   }
 
   public void devolver() {
-    this.prestado = false;
+    prestado = false;
   }
 
   public void estado() {
